@@ -8,6 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A59C8F8B1A2108C6006880ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F8A1A2108C6006880ED /* main.cpp */; };
+		A59C8F921A210992006880ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F911A210992006880ED /* Cocoa.framework */; };
+		A59C8F941A21099C006880ED /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F931A21099C006880ED /* OpenGL.framework */; };
+		A59C8F961A2109A8006880ED /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F951A2109A8006880ED /* GLUT.framework */; };
+		A59C8FA11A210A9D006880ED /* image_DXT.c in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F971A210A9D006880ED /* image_DXT.c */; };
+		A59C8FA21A210A9D006880ED /* image_DXT.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F981A210A9D006880ED /* image_DXT.h */; };
+		A59C8FA31A210A9D006880ED /* image_helper.c in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F991A210A9D006880ED /* image_helper.c */; };
+		A59C8FA41A210A9D006880ED /* image_helper.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F9A1A210A9D006880ED /* image_helper.h */; };
+		A59C8FA51A210A9D006880ED /* SOIL.c in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F9B1A210A9D006880ED /* SOIL.c */; };
+		A59C8FA61A210A9D006880ED /* SOIL.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F9C1A210A9D006880ED /* SOIL.h */; };
+		A59C8FA71A210A9D006880ED /* stb_image_aug.c in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F9D1A210A9D006880ED /* stb_image_aug.c */; };
+		A59C8FA81A210A9D006880ED /* stb_image_aug.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F9E1A210A9D006880ED /* stb_image_aug.h */; };
+		A59C8FA91A210A9D006880ED /* stbi_DDS_aug_c.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8F9F1A210A9D006880ED /* stbi_DDS_aug_c.h */; };
+		A59C8FAA1A210A9D006880ED /* stbi_DDS_aug.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C8FA01A210A9D006880ED /* stbi_DDS_aug.h */; };
+		A59C8FAD1A210B43006880ED /* libSOIL.a in Sources */ = {isa = PBXBuildFile; fileRef = A59C8FAB1A210AAD006880ED /* libSOIL.a */; };
+		A59C8FAE1A210B43006880ED /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F971A210A9D006880ED /* image_DXT.c */; };
+		A59C8FAF1A210B43006880ED /* image_DXT.h in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F981A210A9D006880ED /* image_DXT.h */; };
+		A59C8FB01A210B43006880ED /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F991A210A9D006880ED /* image_helper.c */; };
+		A59C8FB11A210B43006880ED /* image_helper.h in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F9A1A210A9D006880ED /* image_helper.h */; };
+		A59C8FB21A210B43006880ED /* SOIL.c in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F9B1A210A9D006880ED /* SOIL.c */; };
+		A59C8FB31A210B43006880ED /* SOIL.h in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F9C1A210A9D006880ED /* SOIL.h */; };
+		A59C8FB41A210B43006880ED /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F9D1A210A9D006880ED /* stb_image_aug.c */; };
+		A59C8FB51A210B43006880ED /* stb_image_aug.h in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F9E1A210A9D006880ED /* stb_image_aug.h */; };
+		A59C8FB61A210B43006880ED /* stbi_DDS_aug_c.h in Sources */ = {isa = PBXBuildFile; fileRef = A59C8F9F1A210A9D006880ED /* stbi_DDS_aug_c.h */; };
+		A59C8FB71A210B43006880ED /* stbi_DDS_aug.h in Sources */ = {isa = PBXBuildFile; fileRef = A59C8FA01A210A9D006880ED /* stbi_DDS_aug.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +49,20 @@
 /* Begin PBXFileReference section */
 		A59C8F871A2108C6006880ED /* CG Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CG Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59C8F8A1A2108C6006880ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A59C8F911A210992006880ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A59C8F931A21099C006880ED /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A59C8F951A2109A8006880ED /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A59C8F971A210A9D006880ED /* image_DXT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = image_DXT.c; path = SOIL/src/image_DXT.c; sourceTree = "<group>"; };
+		A59C8F981A210A9D006880ED /* image_DXT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = image_DXT.h; path = SOIL/src/image_DXT.h; sourceTree = "<group>"; };
+		A59C8F991A210A9D006880ED /* image_helper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = image_helper.c; path = SOIL/src/image_helper.c; sourceTree = "<group>"; };
+		A59C8F9A1A210A9D006880ED /* image_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = image_helper.h; path = SOIL/src/image_helper.h; sourceTree = "<group>"; };
+		A59C8F9B1A210A9D006880ED /* SOIL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SOIL.c; path = SOIL/src/SOIL.c; sourceTree = "<group>"; };
+		A59C8F9C1A210A9D006880ED /* SOIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SOIL.h; path = SOIL/src/SOIL.h; sourceTree = "<group>"; };
+		A59C8F9D1A210A9D006880ED /* stb_image_aug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = stb_image_aug.c; path = SOIL/src/stb_image_aug.c; sourceTree = "<group>"; };
+		A59C8F9E1A210A9D006880ED /* stb_image_aug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image_aug.h; path = SOIL/src/stb_image_aug.h; sourceTree = "<group>"; };
+		A59C8F9F1A210A9D006880ED /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug_c.h; path = SOIL/src/stbi_DDS_aug_c.h; sourceTree = "<group>"; };
+		A59C8FA01A210A9D006880ED /* stbi_DDS_aug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug.h; path = SOIL/src/stbi_DDS_aug.h; sourceTree = "<group>"; };
+		A59C8FAB1A210AAD006880ED /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = SOIL/lib/libSOIL.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +70,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59C8FA11A210A9D006880ED /* image_DXT.c in Frameworks */,
+				A59C8FA21A210A9D006880ED /* image_DXT.h in Frameworks */,
+				A59C8FA31A210A9D006880ED /* image_helper.c in Frameworks */,
+				A59C8FA41A210A9D006880ED /* image_helper.h in Frameworks */,
+				A59C8FA51A210A9D006880ED /* SOIL.c in Frameworks */,
+				A59C8FA61A210A9D006880ED /* SOIL.h in Frameworks */,
+				A59C8FA71A210A9D006880ED /* stb_image_aug.c in Frameworks */,
+				A59C8FA81A210A9D006880ED /* stb_image_aug.h in Frameworks */,
+				A59C8FA91A210A9D006880ED /* stbi_DDS_aug_c.h in Frameworks */,
+				A59C8FAA1A210A9D006880ED /* stbi_DDS_aug.h in Frameworks */,
+				A59C8F961A2109A8006880ED /* GLUT.framework in Frameworks */,
+				A59C8F941A21099C006880ED /* OpenGL.framework in Frameworks */,
+				A59C8F921A210992006880ED /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +92,20 @@
 		A59C8F7E1A2108C6006880ED = {
 			isa = PBXGroup;
 			children = (
+				A59C8FAB1A210AAD006880ED /* libSOIL.a */,
+				A59C8F971A210A9D006880ED /* image_DXT.c */,
+				A59C8F981A210A9D006880ED /* image_DXT.h */,
+				A59C8F991A210A9D006880ED /* image_helper.c */,
+				A59C8F9A1A210A9D006880ED /* image_helper.h */,
+				A59C8F9B1A210A9D006880ED /* SOIL.c */,
+				A59C8F9C1A210A9D006880ED /* SOIL.h */,
+				A59C8F9D1A210A9D006880ED /* stb_image_aug.c */,
+				A59C8F9E1A210A9D006880ED /* stb_image_aug.h */,
+				A59C8F9F1A210A9D006880ED /* stbi_DDS_aug_c.h */,
+				A59C8FA01A210A9D006880ED /* stbi_DDS_aug.h */,
+				A59C8F951A2109A8006880ED /* GLUT.framework */,
+				A59C8F931A21099C006880ED /* OpenGL.framework */,
+				A59C8F911A210992006880ED /* Cocoa.framework */,
 				A59C8F891A2108C6006880ED /* CG Final Project */,
 				A59C8F881A2108C6006880ED /* Products */,
 			);
@@ -118,6 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59C8FAD1A210B43006880ED /* libSOIL.a in Sources */,
+				A59C8FAE1A210B43006880ED /* image_DXT.c in Sources */,
+				A59C8FAF1A210B43006880ED /* image_DXT.h in Sources */,
+				A59C8FB01A210B43006880ED /* image_helper.c in Sources */,
+				A59C8FB11A210B43006880ED /* image_helper.h in Sources */,
+				A59C8FB21A210B43006880ED /* SOIL.c in Sources */,
+				A59C8FB31A210B43006880ED /* SOIL.h in Sources */,
+				A59C8FB41A210B43006880ED /* stb_image_aug.c in Sources */,
+				A59C8FB51A210B43006880ED /* stb_image_aug.h in Sources */,
+				A59C8FB61A210B43006880ED /* stbi_DDS_aug_c.h in Sources */,
+				A59C8FB71A210B43006880ED /* stbi_DDS_aug.h in Sources */,
 				A59C8F8B1A2108C6006880ED /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +278,10 @@
 		A59C8F8F1A2108C6006880ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SOIL/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +289,10 @@
 		A59C8F901A2108C6006880ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SOIL/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
